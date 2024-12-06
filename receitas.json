@@ -1,0 +1,195 @@
+[
+  {
+    "_id": { "$oid": "78238472" },
+    "seqId": { "$numberLong": "25" },
+    "thumb": "thumbReceita25.png",
+    "title": "Pão de Queijo",
+    "dateTime": { "$date": "2024-06-08T08:00:00.000Z" },
+    "status": true,
+    "steps": [
+      {
+        "stepId": { "$numberLong": "60" },
+        "path": "receitaStep_25_0.mp4",
+        "step": 0,
+        "preparationMode": "Misture o polvilho e o leite até formar uma massa.",
+        "products": [
+          { "description": "polvilho doce", "measureUnit": "grama", "quantity": 500 },
+          { "description": "leite", "measureUnit": "mililitro", "quantity": 250 }
+        ]
+      },
+      {
+        "stepId": { "$numberLong": "61" },
+        "path": "receitaStep_25_1.mp4",
+        "step": 1,
+        "preparationMode": "Adicione o queijo ralado e misture bem.",
+        "products": [
+          { "description": "queijo parmesão", "measureUnit": "grama", "quantity": 200 }
+        ]
+      }
+    ],
+    "tags": [1, 3],
+    "_class": "br.com.heycheff.api.model.Receipt"
+  },
+  {
+    "_id": { "$oid": "665e26aab7038d783b7bd073" },
+    "seqId": { "$numberLong": "26" },
+    "thumb": "thumbReceita26.png",
+    "title": "Lasanha de Frango",
+    "dateTime": { "$date": "2024-06-08T12:30:00.000Z" },
+    "status": true,
+    "steps": [
+      {
+        "stepId": { "$numberLong": "62" },
+        "path": "receitaStep_26_0.mp4",
+        "step": 0,
+        "preparationMode": "Cozinhe o frango e desfie.",
+        "products": [
+          { "description": "frango", "measureUnit": "grama", "quantity": 500 }
+        ]
+      },
+      {
+        "stepId": { "$numberLong": "63" },
+        "path": "receitaStep_26_1.mp4",
+        "step": 1,
+        "preparationMode": "Prepare o molho com tomates e temperos.",
+        "products": [
+          { "description": "tomate", "measureUnit": "unidade", "quantity": 4 },
+          { "description": "cebola", "measureUnit": "unidade", "quantity": 1 }
+        ]
+      },
+      {
+        "stepId": { "$numberLong": "64" },
+        "path": "receitaStep_26_2.mp4",
+        "step": 2,
+        "preparationMode": "Monte a lasanha com camadas de massa, frango e molho.",
+        "products": [
+          { "description": "massa de lasanha", "measureUnit": "unidade", "quantity": 12 }
+        ]
+      }
+    ],
+    "tags": [5],
+    "_class": "br.com.heycheff.api.model.Receipt"
+  },
+  {
+    "_id": { "$oid": "665e26aab7038d783b7bd074" },
+    "seqId": { "$numberLong": "27" },
+    "thumb": "thumbReceita27.png",
+    "title": "Salada Caesar",
+    "dateTime": { "$date": "2024-06-08T18:00:00.000Z" },
+    "status": true,
+    "steps": [
+      {
+        "stepId": { "$numberLong": "65" },
+        "path": "receitaStep_27_0.mp4",
+        "step": 0,
+        "preparationMode": "Prepare o molho com alho, anchovas e azeite.",
+        "products": [
+          { "description": "alho", "measureUnit": "dente", "quantity": 2 },
+          { "description": "anchovas", "measureUnit": "grama", "quantity": 50 },
+          { "description": "azeite", "measureUnit": "mililitro", "quantity": 100 }
+        ]
+      },
+      {
+        "stepId": { "$numberLong": "66" },
+        "path": "receitaStep_27_1.mp4",
+        "step": 1,
+        "preparationMode": "Misture a alface com o molho e finalize com croutons.",
+        "products": [
+          { "description": "alface romana", "measureUnit": "unidade", "quantity": 1 },
+          { "description": "croutons", "measureUnit": "grama", "quantity": 100 }
+        ]
+      }
+    ],
+    "tags": [7, 2],
+    "_class": "br.com.heycheff.api.model.Receipt"
+  },
+  {
+    "_id": { "$oid": "665e26aab7038d783b7bd075" },
+    "seqId": { "$numberLong": "28" },
+    "thumb": "thumbReceita28.png",
+    "title": "Torta de Limão",
+    "dateTime": { "$date": "2024-06-09T10:00:00.000Z" },
+    "status": true,
+    "steps": [
+      {
+        "stepId": { "$numberLong": "67" },
+        "path": "receitaStep_28_0.mp4",
+        "step": 0,
+        "preparationMode": "Prepare a base com bolacha triturada e manteiga.",
+        "products": [
+          { "description": "bolacha", "measureUnit": "grama", "quantity": 200 },
+          { "description": "manteiga", "measureUnit": "grama", "quantity": 100 }
+        ]
+      },
+      {
+        "stepId": { "$numberLong": "68" },
+        "path": "receitaStep_28_1.mp4",
+        "step": 1,
+        "preparationMode": "Misture o leite condensado e o suco de limão.",
+        "products": [
+          { "description": "leite condensado", "measureUnit": "grama", "quantity": 395 },
+          { "description": "suco de limão", "measureUnit": "mililitro", "quantity": 100 }
+        ]
+      }
+    ],
+    "tags": [4, 8],
+    "_class": "br.com.heycheff.api.model.Receipt"
+  },
+  {
+    "_id": { "$oid": "665e26aab7038d783b7bd076" },
+    "seqId": { "$numberLong": "29" },
+    "thumb": "thumbReceita29.png",
+    "title": "Brigadeiro",
+    "dateTime": { "$date": "2024-06-09T15:00:00.000Z" },
+    "status": true,
+    "steps": [
+      {
+        "stepId": { "$numberLong": "69" },
+        "path": "receitaStep_29_0.mp4",
+        "step": 0,
+        "preparationMode": "Misture o leite condensado, a manteiga e o achocolatado.",
+        "products": [
+          { "description": "leite condensado", "measureUnit": "grama", "quantity": 395 },
+          { "description": "manteiga", "measureUnit": "grama", "quantity": 20 },
+          { "description": "achocolatado", "measureUnit": "grama", "quantity": 50 }
+        ]
+      }
+    ],
+    "tags": [4, 9],
+    "_class": "br.com.heycheff.api.model.Receipt"
+  },
+  {
+    "_id": { "$oid": "665e26aab7038d783b7bd077" },
+    "seqId": { "$numberLong": "30" },
+    "thumb": "thumbReceita30.png",
+    "title": "Quiche de Alho-Poró",
+    "dateTime": { "$date": "2024-06-09T18:30:00.000Z" },
+    "status": true,
+    "steps": [
+      {
+        "stepId": { "$numberLong": "70" },
+        "path": "receitaStep_30_0.mp4",
+        "step": 0,
+        "preparationMode": "Prepare a massa com farinha, manteiga e água.",
+        "products": [
+          { "description": "farinha de trigo", "measureUnit": "grama", "quantity": 250 },
+          { "description": "manteiga", "measureUnit": "grama", "quantity": 125 },
+          { "description": "água", "measureUnit": "mililitro", "quantity": 50 }
+        ]
+      },
+      {
+        "stepId": { "$numberLong": "71" },
+        "path": "receitaStep_30_1.mp4",
+        "step": 1,
+        "preparationMode": "Prepare o recheio com alho-poró, creme de leite e ovos.",
+        "products": [
+          { "description": "alho-poró", "measureUnit": "unidade", "quantity": 1 },
+          { "description": "creme de leite", "measureUnit": "grama", "quantity": 200 },
+          { "description": "ovo", "measureUnit": "unidade", "quantity": 3 }
+        ]
+      }
+    ],
+    "tags": [5, 7],
+    "_class": "br.com.heycheff.api.model.Receipt"
+  }
+]
