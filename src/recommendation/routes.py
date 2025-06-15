@@ -1,5 +1,5 @@
-from src.recommendation.recomBERT import get_bert_recommendations
-from src.recommendation.recomendacao import get_recommendations
+from src.recommendation.utils import get_bert_recommendations
+from src.recommendation.services import get_recommendations
 
 if __name__ == '__main__':
     recommendations = get_recommendations("Camarão")
