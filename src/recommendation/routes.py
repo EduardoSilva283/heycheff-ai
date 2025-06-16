@@ -4,13 +4,14 @@ from datetime import datetime, timedelta
 import pytz
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
+import os
+from dotenv import load_dotenv
 
 recommendation_bp = Blueprint('recommendation', __name__)
 
-# Config MongoDB Atlas
-MONGO_URI = "mongodb+srv://eduardolrs1998:Zk69JSLU3ZE3NEfa@cluster0.ftrgyiy.mongodb.net/"
-DB_NAME = "heycheff"
-COLLECTION_NAME = "recipe"
+MONGO_URI = os.getenv('MONGO_URI')
+DB_NAME = os.getenv('DB_NAME')
+COLLECTION_NAME = os.getenv('COLLECTION_NAME')
 
 # Datas comemorativas exemplo (adicione mais conforme necessário)
 HOLIDAYS = {
